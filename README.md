@@ -1,8 +1,8 @@
 # dbf2csv
 Convert DBase tables to CSV files
 
-Require
---make
+Require:
+  make
 
 Use:
   make run
