@@ -1,0 +1,12 @@
+version: "3.6"
+services:
+
+    converter:
+        build: .
+        restart: always
+        volumes:
+            - .:/Trabajo
+        command: php ./src/dbf2csv.php
+
+volumes:
+    persistent:
